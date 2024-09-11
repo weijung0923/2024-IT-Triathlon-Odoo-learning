@@ -1,0 +1,17 @@
+<!-- my_qweb_example/views/my_qweb_template.xml -->
+
+<odoo>
+    <data>
+        <!-- 定義一個簡單的 QWeb 模板 -->
+        <template id="simple_template">
+            <t t-name="my_qweb_example.simple_template">
+                <data>
+                    <record id="example_record">
+                        <field name="name">Example QWeb Record</field>
+                        <field name="description">This is a QWeb example without HTML.</field>
+                    </record>
+                </data>
+            </t>
+        </template>
+    </data>
+</odoo>
