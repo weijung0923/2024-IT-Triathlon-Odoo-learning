@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="custom_layout" inherit_id="website.layout">
+        <xpath expr="//header" position="replace">
+            <t t-call="my_theme.header"/>
+        </xpath>
+    </template>
+</odoo>
