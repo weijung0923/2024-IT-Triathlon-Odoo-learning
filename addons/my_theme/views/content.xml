@@ -1,0 +1,11 @@
+<odoo>
+    <template id="content">
+        <section id="wrap" class="oe_structure">
+            <div class="container">
+                <h1>Welcome to My Website</h1>
+                <p>This is the content section where you can introduce your products or services.</p>
+            </div>
+        </section>
+    </template>
+</odoo>
+

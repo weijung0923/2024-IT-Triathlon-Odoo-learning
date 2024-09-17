@@ -4,5 +4,12 @@
         <xpath expr="//header" position="replace">
             <t t-call="my_theme.header"/>
         </xpath>
+
+        <xpath expr="//main" position="replace">
+            <main>
+                <t t-call="my_theme.content" />  <!-- 引入 content 模板 -->
+            </main>
+        </xpath>
+        
     </template>
 </odoo>
