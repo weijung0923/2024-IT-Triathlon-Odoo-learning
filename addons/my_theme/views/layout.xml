@@ -10,6 +10,9 @@
                 <t t-call="my_theme.content" />  <!-- 引入 content 模板 -->
             </main>
         </xpath>
-        
+
+        <xpath expr="//footer" position="replace">
+            <t t-call="my_theme.footer" />  <!-- 引入 footer 模板 -->
+        </xpath>
     </template>
 </odoo>

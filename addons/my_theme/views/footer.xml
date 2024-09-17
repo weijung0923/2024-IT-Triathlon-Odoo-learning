@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="footer">
+        <footer>
+            <div class="container p-4">
+                <!-- Grid Row -->
+                <div class="row">
+                    <!-- Column 1: Company Info -->
+                    <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase">Company Name</h5>
+                        <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error.
+                        </p>
+                    </div>
+
+                    <!-- Column 2: Useful Links -->
+                    <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase">Useful Links</h5>
+                        <ul class="list-unstyled">
+                        <li>
+                            <a href="#!" class="text-dark">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-dark">Services</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-dark">Contact</a>
+                        </li>
+                        </ul>
+                    </div>
+
+                    <!-- Column 3: Social Links -->
+                    <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+                        <h5 class="text-uppercase">Follow Us</h5>
+                        <ul class="list-unstyled">
+                        <li>
+                            <a href="#!" class="text-dark">Facebook</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-dark">Twitter</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-dark">Instagram</a>
+                        </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Grid Row End -->
+            </div>
+            <!-- Footer Container End -->
+
+            <!-- Footer Copyright -->
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                © 2024 Copyright:
+                <a class="text-dark" href="https://yourwebsite.com/">YourWebsite.com</a>
+            </div>
+        </footer>
+    </template>
+</odoo>

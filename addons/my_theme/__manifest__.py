@@ -8,6 +8,7 @@
         'views/layout.xml',  # 繼承 layout 視圖
         'views/header.xml',  # 自定義的 header 視圖
         'views/content.xml',  # 加載頁面主體內容
+        'views/footer.xml' # 加入footer
     ],
     'installable': True,
     'application': False,
